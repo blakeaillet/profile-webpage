@@ -1,0 +1,63 @@
+/*style image*/
+img {
+    align-items: center;
+    height: 250px;
+    width: 300px;
+    margin-top: 50px;
+}
+/*apply style to main: center text, margins, weight*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: aquamarine;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: normal;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: aquamarine;
+}
+/*max width text in who am i section*/
+.about p {
+max-width: 35ch;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+body {
+    background-color: black;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+
+}
+/*contact links side by side*/
+footer p {
+    display: flex;
+    gap: 30px;
+}
