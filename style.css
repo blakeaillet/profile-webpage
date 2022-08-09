@@ -70,6 +70,7 @@ footer p {
     display: flex;
     gap: 30px;
 }
+/* pseudo class links color red*/
 
 a:hover {
     color: red;
