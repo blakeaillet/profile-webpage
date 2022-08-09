@@ -24,6 +24,15 @@ main {
 
 }
 
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color: aquamarine;
+    height: 1px;
+}
+
 .about {
     display: flex;
     flex-direction: column;
@@ -60,4 +69,8 @@ footer {
 footer p {
     display: flex;
     gap: 30px;
+}
+
+a:hover {
+    color: red;
 }
