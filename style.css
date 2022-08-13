@@ -1,8 +1,13 @@
 /*style image*/
 img {
     align-items: center;
-    height: 250px;
+    height: 100%;
     width: 300px;
+    border-radius: 25% 0% 25% 0%;
+    border: 3px solid aquamarine;
+}
+
+.pic {
     margin-top: 50px;
 }
 /*apply style to main: center text, margins, weight*/
@@ -73,5 +78,12 @@ footer p {
 /* pseudo class links color red*/
 
 a:hover {
-    color: red;
+    color: green;
+}
+
+.button {
+    height: 50px;
+    width: 80px;
+    color: black;
+    border-radius: 25% 0% 25% 0%;
 }
