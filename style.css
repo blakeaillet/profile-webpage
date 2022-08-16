@@ -80,10 +80,3 @@ footer p {
 a:hover {
     color: green;
 }
-
-.button {
-    height: 50px;
-    width: 80px;
-    color: black;
-    border-radius: 25% 0% 25% 0%;
-}
